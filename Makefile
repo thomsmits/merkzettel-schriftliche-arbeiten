@@ -1,7 +1,7 @@
 # Makefile for the TPE exam
 
 OUTPUT_DIR = 00_Output
-DEPLOY_DIR = /Users/thomas/Documents/Work/HS-Mannheim/Sonstiges/Webseite/web/files
+DEPLOY_DIR = /Users/thomas/Documents/Work/Webseite/web/files
 LATEX = pdflatex
 BIBTEX = bibtex
 MAKEINDEX = makeindex
