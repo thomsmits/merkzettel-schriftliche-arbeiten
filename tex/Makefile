@@ -23,7 +23,7 @@ all: $(TEMP_DIR) $(RESULT_DIR) \
 clean:
 	rm -rf $(TEMP_DIR)
 
-$(TEMP_DIR)/Merkzettel_fuer_schriftliche_Arbeiten.pdf: Merkzettel_fuer_schriftliche_Arbeiten.tex
+$(TEMP_DIR)/Merkzettel_fuer_schriftliche_Arbeiten.pdf: Merkzettel_fuer_schriftliche_Arbeiten.tex sources.bib
 	cp sources.bib $(TEMP_DIR)
 	$(latex-it)
 
